@@ -14,7 +14,12 @@ public class InterfazImc {
     public static void main(String []oso){
         
       Imc imc=new Imc(80,1.67f);
+     Integer uno=new Integer("4");
+     int dos=5;
+     int tres=uno+dos;
+        System.out.println("la suma es "+tres);
      
+       
     
      System.out.println(  imc.calcular());
     
