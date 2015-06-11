@@ -5,6 +5,11 @@
  */
 package polimorfismo;
 
-public class Pollo {
+public class Pollo extends Animal implements ComportamientoRuido{
+
+    @Override
+    public String hacerRuido() {
+       return "pio-pio-pio";
+    }
     
 }

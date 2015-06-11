@@ -9,13 +9,25 @@ package polimorfismo;
  *
  * @author campitos
  */
-public class ProbarPolimorfismo {
+public class Chapultepec {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     //Vamos a  crear animalitos
+     Pollo p1=new Pollo();
+     p1.setNombre("Pollito pio");
+     
+     Leon l1=new Leon();
+     l1.setNombre("Timba");
+     
+     Leon l2=new Leon();
+     l2.setNombre("Mu-fa-sa");
+     
+     Delfin d1=new Delfin();
+     d1.setNombre("Flipper"); 
+    
 
     }
     
