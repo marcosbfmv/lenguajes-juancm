@@ -9,7 +9,7 @@ public class Pollo extends Animal implements ComportamientoRuido{
 
     @Override
     public String hacerRuido() {
-       return "pio-pio-pio";
+       return "pio-pio-pio "+getNombre();
     }
     
 }

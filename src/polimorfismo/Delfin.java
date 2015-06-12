@@ -13,7 +13,7 @@ public class Delfin extends Animal implements ComportamientoRuido {
 
     @Override
     public String hacerRuido() {
-     return "brriiiiipppp";
+     return "brriiiiipppp "+getNombre();
     }
     
 }

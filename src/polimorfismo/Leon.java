@@ -14,7 +14,7 @@ public class Leon extends Animal implements ComportamientoRuido{
 
     @Override
     public String hacerRuido() {
-   return "GRRRUUUAAAR";
+   return "GRRRUUUAAAR "+getNombre();
     }
     
 }
